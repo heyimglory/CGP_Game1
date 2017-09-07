@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game1: Make and Escape</title>
+</head>
+<body>
+
+<h1>Game1: Make and Escape</h1>
+
+<p>Designed by Hung-yu Chen</p>
+
+<p>"Make and Escape" is a game including collecting the material, making them into tools, and escaping from the yard. The player needs to think a little bit to figure out how to escape!</p>
+
+<h2>Gameplay</h2>
+
+<div style="text-align:center">
+<img src="center.png" width="440" height="330"/>
+</div>
+<p>The player controls the position of the main character with the arrow keys.</p>
+<p>When the main character reaches the edge of the screen, the screen transitions to the adjacent screen (if it exists).</p>
+<div style="text-align:center">
+<img src="highlighted.png" width="440" height="330"/>
+</div>
+<p>If the main character is standing next to a object that can interact with, the object is highlighted, and the player can press 'z' to interact with the object. The form of interaction could be pick it up, put sometiong on it, use it, and/or show a message window.</p>
+
+<h2>World</h2>
+<div style="text-align:center">
+<img src="world.png" width="1100" height="280"/>
+</div>
+<p>The world is basicly the yard, divided into three sceens and a winning screen.</p>
+
+<h2>Materials, Tools and Items</h2>
+<p>The main character can only carry one material, tool, or item at a time. Materials can be made into tools at the workbench, tools can be used to get the items, and items can help you escape from the yard.</p>
+<p>Materials:</p>
+<div>
+<img src="material.png" width="200" height="40"/>
+</div>
+<ul>
+<li>boards</li>
+<li>rope</li>
+<li>pickaxe head</li>
+<li>stick</li>
+<li>knife</li>
+<li>rod</li>
+</ul>
+<p>Tools:</p>
+<div>
+<img src="tool.png" width="110" height="40"/>
+</div>
+<ul>
+<li>bridge</li>
+<li>pickaxe</li>
+<li>knife with a long handle</li>
+</ul>
+<p>Items:</p>
+<div>
+<img src="item.png" width="150" height="40"/>
+</div>
+<ul>
+<li>crystal</li>
+<li>coin</li>
+<li>apple</li>
+<li>rock</li>
+<li>key</li>
+</ul>
+
+<h2>Workbench</h2>
+<div>
+<img src="workbench.png" width="90" height="40"/>
+</div>
+<p>Tools can be made at the workbench when the required materials are placed on it.</p>
+<ul>
+<li><em>boards</em> + <em>rope</em> = <em>bridge</em></li>
+<li><em>pickaxe head</em> + <em>stick</em> = <em>pickaxe</em></li>
+<li><em>knife</em> + <em>rod</em> = <em>knife with a long handle</em></li>
+</ul>
+
+<h2>Usages of Tools</h2>
+<p>The <em>bridge</em> is used to cross the water to get the <em>crystal</em>.</p>
+<p>The <em>pickaxe</em> is used to dig out the <em>coin</em>.</p>
+<p>The <em>knife with a long handle</em> is used to get the <em>apple</em> from the tree.</p>
+
+<h2>Usage of the items</h2>
+<p>When <em>crystal</em>, <em>coin</em>, <em>apple</em>, and <em>rock</em> are placed on the four outer pillars correctly (right: <em>coin</em>, up: <em>apple</em>, left: <em>crystal</em>, down: <em>rock</em>), the <em>key</em> shows up on the center pillar.</p>
+<p>The <em>key</em> can be used to open the door of the yard so that the main character can escape!</p>
+
+<h2>Hints</h2>
+<p>There are some hints shown in the message for the player to detremine the correct pillar to place the items.<p>
+<ul>
+<li>The <em>pond</em> shows "I left without a trace." => <em>crystal</em> on the left pillar</li>
+<li>The <em>map</em> shows "I'm always right." => <em>coin</em> on the right pillar</li>
+<li>The <em>tree</em> shows "Look up!" => <em>apple</em> on the upper pillar</li>
+<li>The <em>scale</em> shows "Settle me down." => <em>rock</em> on the lower pillar</li>
+</ul>
+
+<h2>Assets</h2>
+<ul>
+<li><a href="center.xcf">center.xcf</a></li>
+<li><a href="right.xcf">right.xcf</a></li>
+<li><a href="left.xcf">left.xcf</a></li>
+<li><a href="highlighted.xcf">highlighted.xcf</a></li>
+<li><a href="stuff.xcf">stuff.xcf</a></li>
+</ul>
+
+</body>
+</html>
